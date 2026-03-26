@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<data>
+    <AU_FILEEVENT>
+        <au_triggerInSequence><![CDATA[0]]></au_triggerInSequence>
+        <au_stableTime><![CDATA[$0]]></au_stableTime>
+        <au_filterOut><![CDATA[]]></au_filterOut>
+        <au_processDuplicateFile><![CDATA[0]]></au_processDuplicateFile>
+        <au_groupOwner><![CDATA[IndigoGroup:192168001247124695270123400003]]></au_groupOwner>
+        <au_calendarType><![CDATA[null]]></au_calendarType>
+        <au_modifiedBy><![CDATA[IndigoUser:127000000001107055536473900001]]></au_modifiedBy>
+        <au_modifiedDate><![CDATA[2010-10-26T12:51:58]]></au_modifiedDate>
+        <au_version><![CDATA[1]]></au_version>
+        <au_eventStartDateTime><![CDATA[06/27/2009 19:20]]></au_eventStartDateTime>
+        <au_comments><![CDATA[null]]></au_comments>
+        <au_description><![CDATA[File Event To Lookup The Outbound File]]></au_description>
+        <au_processPerPoll><![CDATA[0]]></au_processPerPoll>
+        <au_activeVersion><![CDATA[1]]></au_activeVersion>
+        <au_userOwner><![CDATA[IndigoUser:192168001247124695334028100006]]></au_userOwner>
+        <au_revision><![CDATA[null]]></au_revision>
+        <au_activateFlag><![CDATA[0]]></au_activateFlag>
+        <au_mailNotificationAction><![CDATA[null]]></au_mailNotificationAction>
+        <AU_EVENTTIMEZONE><![CDATA[null]]></AU_EVENTTIMEZONE>
+        <au_creationMode><![CDATA[Simple]]></au_creationMode>
+        <au_receiverEmailIds><![CDATA[null]]></au_receiverEmailIds>
+        <au_permissionMask><![CDATA[750]]></au_permissionMask>
+        <au_projectOwner><![CDATA[null]]></au_projectOwner>
+        <au_synchronized><![CDATA[0]]></au_synchronized>
+        <au_previousVersion><![CDATA[ ]]></au_previousVersion>
+        <au_fileBaseLocation><![CDATA[/shared/Solutions/EDI/EDIData/Application/Outbound/X12]]></au_fileBaseLocation>
+        <au_pollingFrequency><![CDATA[30$s]]></au_pollingFrequency>
+        <au_processEmptyFile><![CDATA[null]]></au_processEmptyFile>
+        <au_misFireInstructions><![CDATA[null]]></au_misFireInstructions>
+        <au_filterIn><![CDATA[*.txt]]></au_filterIn>
+        <au_creationDate><![CDATA[2009-04-07T16:19:39]]></au_creationDate>
+        <au_userId><![CDATA[]]></au_userId>
+        <au_businessInterval><![CDATA[null]]></au_businessInterval>
+        <au_useWindowsService><![CDATA[0]]></au_useWindowsService>
+        <au_checkModified><![CDATA[0]]></au_checkModified>
+        <au_triggerType><![CDATA[FileExists]]></au_triggerType>
+        <au_id><![CDATA[169254002002123910137903100052]]></au_id>
+        <au_eventExpiryDateTime><![CDATA[]]></au_eventExpiryDateTime>
+        <au_secure><![CDATA[0]]></au_secure>
+        <au_entityName><![CDATA[FileEventEDIX12Outbound]]></au_entityName>
+        <au_runInitialLoad><![CDATA[0]]></au_runInitialLoad>
+        <au_password><![CDATA[]]></au_password>
+    </AU_FILEEVENT>
+    <columnInfo dbtype="4">
+        <column name="au_id" type="12"/>
+        <column name="au_version" type="12"/>
+        <column name="au_previousVersion" type="12"/>
+        <column name="au_activeVersion" type="3"/>
+        <column name="au_entityName" type="12"/>
+        <column name="au_userOwner" type="12"/>
+        <column name="au_groupOwner" type="12"/>
+        <column name="au_permissionMask" type="12"/>
+        <column name="au_description" type="12"/>
+        <column name="au_comments" type="12"/>
+        <column name="au_modifiedBy" type="12"/>
+        <column name="au_creationDate" type="93"/>
+        <column name="au_modifiedDate" type="93"/>
+        <column name="au_revision" type="12"/>
+        <column name="au_synchronized" type="3"/>
+        <column name="au_projectOwner" type="12"/>
+        <column name="au_activateFlag" type="3"/>
+        <column name="au_eventStartDateTime" type="12"/>
+        <column name="au_eventExpiryDateTime" type="12"/>
+        <column name="au_triggerInSequence" type="3"/>
+        <column name="au_calendarType" type="12"/>
+        <column name="au_businessInterval" type="12"/>
+        <column name="au_creationMode" type="12"/>
+        <column name="au_receiverEmailIds" type="12"/>
+        <column name="au_misFireInstructions" type="12"/>
+        <column name="au_processPerPoll" type="4"/>
+        <column name="au_triggerType" type="12"/>
+        <column name="au_filterIn" type="12"/>
+        <column name="au_filterOut" type="12"/>
+        <column name="au_fileBaseLocation" type="12"/>
+        <column name="au_pollingFrequency" type="12"/>
+        <column name="au_stableTime" type="12"/>
+        <column name="au_secure" type="3"/>
+        <column name="au_userId" type="12"/>
+        <column name="au_password" type="12"/>
+        <column name="au_checkModified" type="3"/>
+        <column name="au_runInitialLoad" type="3"/>
+        <column name="au_processEmptyFile" type="3"/>
+        <column name="au_processDuplicateFile" type="3"/>
+        <column name="au_mailNotificationAction" type="12"/>
+        <column name="au_useWindowsService" type="3"/>
+        <column name="AU_EVENTTIMEZONE" type="12"/>
+    </columnInfo>
+</data>
