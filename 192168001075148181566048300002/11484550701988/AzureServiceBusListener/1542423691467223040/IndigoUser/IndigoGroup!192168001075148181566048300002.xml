@@ -2,25 +2,25 @@
 <data>
     <AU_GROUPS>
         <au_comments><![CDATA[null]]></au_comments>
+        <au_title><![CDATA[null]]></au_title>
+        <au_webDavFolder><![CDATA[WebDavFolder:192168001207112972325504600001]]></au_webDavFolder>
+        <au_creationDate><![CDATA[2024-01-12T06:56:13]]></au_creationDate>
+        <au_synchronized><![CDATA[1]]></au_synchronized>
         <au_projectOwner><![CDATA[Default]]></au_projectOwner>
-        <au_groupOwner><![CDATA[IndigoGroup:192168001077140559961435500002]]></au_groupOwner>
-        <au_activeVersion><![CDATA[1]]></au_activeVersion>
-        <au_synchronized><![CDATA[0]]></au_synchronized>
-        <au_previousVersion><![CDATA[]]></au_previousVersion>
-        <au_entityName><![CDATA[ac_group]]></au_entityName>
+        <au_groupInfo><![CDATA[K8QswfddIduKjYZJo7AwgclYZPnFCTzRUSyxdim3JrzK5v8CUYpBult9MBz+2s6/]]></au_groupInfo>
+        <au_id><![CDATA[192168001075148181566048300002]]></au_id>
+        <au_previousVersion><![CDATA[null]]></au_previousVersion>
         <au_modifiedBy><![CDATA[IndigoUser:192168001077140566117215700004]]></au_modifiedBy>
-        <au_creationDate><![CDATA[2014-07-17T17:50:14]]></au_creationDate>
         <au_permissionMask><![CDATA[755]]></au_permissionMask>
-        <au_groupInfo><![CDATA[c78pA3p1acSJV3nrvDEIRf8bXTeuI8x6FiG9Pkg+TzXcc+uWmRu8yj2k3R5AO/p4]]></au_groupInfo>
-        <au_webDavFolder><![CDATA[abc]]></au_webDavFolder>
-        <au_title><![CDATA[]]></au_title>
-        <au_comment><![CDATA[]]></au_comment>
-        <au_id><![CDATA[192168001077140559961435500002]]></au_id>
-        <au_modifiedDate><![CDATA[2014-07-18T10:38:05]]></au_modifiedDate>
+        <au_modifiedDate><![CDATA[2024-01-12T06:56:13]]></au_modifiedDate>
+        <au_description><![CDATA[Dummy Group]]></au_description>
+        <au_groupOwner><![CDATA[IndigoGroup:192168001077140559961435500002]]></au_groupOwner>
+        <au_entityName><![CDATA[Group_1]]></au_entityName>
         <au_version><![CDATA[1]]></au_version>
+        <au_revision><![CDATA[d553b2724f0c84f94da28f02c6b222cf36cc6f05]]></au_revision>
+        <au_activeVersion><![CDATA[1]]></au_activeVersion>
+        <au_comment><![CDATA[null]]></au_comment>
         <au_userOwner><![CDATA[IndigoUser:192168001077140566117215700004]]></au_userOwner>
-        <au_revision><![CDATA[null]]></au_revision>
-        <au_description><![CDATA[This group contains activities required for executing process flow of Adeptia Connect.]]></au_description>
     </AU_GROUPS>
     <columnInfo dbtype="4">
         <column name="au_id" type="12"/>
