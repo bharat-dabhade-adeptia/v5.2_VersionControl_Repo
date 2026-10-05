@@ -1,0 +1,250 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<data>
+    <AU_TRANSACTION>
+        <au_realTimeConfiguration><![CDATA[0]]></au_realTimeConfiguration>
+        <au_OldFlowDescriptor><![CDATA[null]]></au_OldFlowDescriptor>
+        <au_creationDate><![CDATA[2026-10-01T06:39:42]]></au_creationDate>
+        <au_connectDashboardLogging><![CDATA[1]]></au_connectDashboardLogging>
+        <au_synchronized><![CDATA[0]]></au_synchronized>
+        <au_entityName><![CDATA[SumitG_SFTP_Key_PF]]></au_entityName>
+        <au_dataEncryptionAtRest><![CDATA[useGlobalPolicy]]></au_dataEncryptionAtRest>
+        <au_activeVersion><![CDATA[1]]></au_activeVersion>
+        <au_comments><![CDATA[null]]></au_comments>
+        <au_advanced><![CDATA[1]]></au_advanced>
+        <au_logRetentionAction><![CDATA[L]]></au_logRetentionAction>
+        <au_flowDescriptor><![CDATA[<?xml version="1.0" encoding="UTF-8"?>
+<AdeptiaPE xmlns="jelly:com.werken.blissed.jelly.BlissedTagLibrary" xmlns:version="4.7" xmlns:j="jelly:core" xmlns:abpm="jelly:com.adeptia.indigo.jelly.IndigoTagLibrary" xmlns:pd="jelly:com.adeptia.indigo.pd.ProcessDesignerTagLibrary">
+   <process name="mainProcess" start="startState" var="mainProcess">
+      <state name="startState">
+         <activity>
+            <abpm:installGlobalExceptionHandlers/>
+         </activity>
+      </state>
+      <state name="Task_0mdm56p">
+         <activity>
+            <abpm:activity name="SumitG_SFTP_Key_Source" async="false" id="1555106402851958784" signal="SignalComplete" type="FtpSource">
+               <abpm:params>
+                  <abpm:param name="restartTriesCount">[ABPM_._ESCAPE_._CDATA_._START]0[ABPM_._ESCAPE_._CDATA_._END]</abpm:param>
+                  <abpm:param name="restartWaitTime">[ABPM_._ESCAPE_._CDATA_._START]60[ABPM_._ESCAPE_._CDATA_._END]</abpm:param>
+                  <abpm:param name="streamNames">[ABPM_._ESCAPE_._CDATA_._START]default[ABPM_._ESCAPE_._CDATA_._END]</abpm:param>
+                  <abpm:param name="targetConnectTimeout">[ABPM_._ESCAPE_._CDATA_._START]300[ABPM_._ESCAPE_._CDATA_._END]</abpm:param>
+                  <abpm:param name="eventContextEnabled">[ABPM_._ESCAPE_._CDATA_._START]false[ABPM_._ESCAPE_._CDATA_._END]</abpm:param>
+               </abpm:params>
+            </abpm:activity>
+         </activity>
+      </state>
+      <state name="Task_03zz7uz">
+         <activity>
+            <abpm:activity name="SumitG_SFTP_Key_Target" async="false" id="1555106649934213120" signal="SignalComplete" type="FtpTarget">
+               <abpm:params>
+                  <abpm:param name="restartTriesCount">[ABPM_._ESCAPE_._CDATA_._START]0[ABPM_._ESCAPE_._CDATA_._END]</abpm:param>
+                  <abpm:param name="restartWaitTime">[ABPM_._ESCAPE_._CDATA_._START]60[ABPM_._ESCAPE_._CDATA_._END]</abpm:param>
+                  <abpm:param name="source">[ABPM_._ESCAPE_._CDATA_._START]SumitG_SFTP_Key_Source[ABPM_._ESCAPE_._CDATA_._END]</abpm:param>
+                  <abpm:param name="streamNames">[ABPM_._ESCAPE_._CDATA_._START][ABPM_._ESCAPE_._CDATA_._END]</abpm:param>
+                  <abpm:param name="targetConnectTimeout">[ABPM_._ESCAPE_._CDATA_._START]300[ABPM_._ESCAPE_._CDATA_._END]</abpm:param>
+               </abpm:params>
+            </abpm:activity>
+         </activity>
+      </state>
+      <state name="StartEvent_1">
+         <activity>
+            <pd:event type="start" subType="none"/>
+         </activity>
+      </state>
+      <state name="EndEvent_0rdoizs">
+         <activity>
+            <pd:event type="end" subType="none"/>
+         </activity>
+      </state>
+      <transition from="startState" to="StartEvent_1"/>
+      <transition from="StartEvent_1" to="Task_0mdm56p"/>
+      <transition from="Task_0mdm56p" to="Task_03zz7uz"/>
+      <transition from="Task_03zz7uz" to="EndEvent_0rdoizs"/>
+   </process>
+</AdeptiaPE>
+]]></au_flowDescriptor>
+        <au_id><![CDATA[1555106919015591936]]></au_id>
+        <au_groupOwner><![CDATA[IndigoGroup:127000000001107055548721600002]]></au_groupOwner>
+        <au_templateName><![CDATA[Process Designer]]></au_templateName>
+        <au_retainVarXml><![CDATA[0]]></au_retainVarXml>
+        <au_loggingLevel><![CDATA[ERROR]]></au_loggingLevel>
+        <au_repositoryAction><![CDATA[L]]></au_repositoryAction>
+        <au_trackVariables><![CDATA[<?xml version="1.0"?><Variables></Variables>]]></au_trackVariables>
+        <au_version><![CDATA[1]]></au_version>
+        <au_recoverable><![CDATA[1]]></au_recoverable>
+        <au_webPdXml><![CDATA[<?xml version="1.0" encoding="UTF-8"?>
+<bpmn2:definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:bpmn2="http://www.omg.org/spec/BPMN/20100524/MODEL" xmlns:bpmndi="http://www.omg.org/spec/BPMN/20100524/DI" xmlns:dc="http://www.omg.org/spec/DD/20100524/DC" xmlns:di="http://www.omg.org/spec/DD/20100524/DI" xmlns:ap="http://adeptia.com/schema/bpmn/ap" xmlns:bioc="http://bpmn.io/schema/bpmn/biocolor/1.0" id="sample-diagram" targetNamespace="http://bpmn.io/schema/bpmn" xsi:schemaLocation="http://www.omg.org/spec/BPMN/20100524/MODEL BPMN20.xsd">
+  <bpmn2:process id="mainProcess" isExecutable="false">
+    <bpmn2:extensionElements>
+      <ap:properties>
+        <ap:property name="version">[ABPM_._ESCAPE_._CDATA_._START]1.0[ABPM_._ESCAPE_._CDATA_._END]</ap:property>
+      </ap:properties>
+    </bpmn2:extensionElements>
+    <bpmn2:startEvent id="StartEvent_1" name="Start Event">
+      <bpmn2:outgoing>SequenceFlow_1nbhfi3</bpmn2:outgoing>
+    </bpmn2:startEvent>
+    <bpmn2:endEvent id="EndEvent_0rdoizs" name="End Event">
+      <bpmn2:extensionElements>
+        <ap:properties>
+          <ap:property name="attachNotification">[ABPM_._ESCAPE_._CDATA_._START]false[ABPM_._ESCAPE_._CDATA_._END]</ap:property>
+          <ap:property name="mailNotification">[ABPM_._ESCAPE_._CDATA_._START][ABPM_._ESCAPE_._CDATA_._END]</ap:property>
+        </ap:properties>
+        <ap:node>
+          <ap:attribute name="label">[ABPM_._ESCAPE_._CDATA_._START]End Event[ABPM_._ESCAPE_._CDATA_._END]</ap:attribute>
+          <ap:attribute name="comments">[ABPM_._ESCAPE_._CDATA_._START][ABPM_._ESCAPE_._CDATA_._END]</ap:attribute>
+        </ap:node>
+      </bpmn2:extensionElements>
+      <bpmn2:incoming>SequenceFlow_03ol5g4</bpmn2:incoming>
+    </bpmn2:endEvent>
+    <bpmn2:task id="Task_0mdm56p" name="SumitG_SFTP_Key_Source">
+      <bpmn2:extensionElements>
+        <ap:streams>
+          <ap:stream name="SumitG_SFTP_Key_Source" id="stream_1mcbz4g" dataObjectReferenceId="" consumer="Task_03zz7uz" error="false" visible="false" source="Task_0mdm56p" />
+        </ap:streams>
+        <ap:properties>
+          <ap:property name="restartTriesCount">[ABPM_._ESCAPE_._CDATA_._START]0[ABPM_._ESCAPE_._CDATA_._END]</ap:property>
+          <ap:property name="restartWaitTime">[ABPM_._ESCAPE_._CDATA_._START]60[ABPM_._ESCAPE_._CDATA_._END]</ap:property>
+          <ap:property name="source">[ABPM_._ESCAPE_._CDATA_._START][ABPM_._ESCAPE_._CDATA_._END]</ap:property>
+          <ap:property name="streamNames">[ABPM_._ESCAPE_._CDATA_._START]SumitG_SFTP_Key_Source[ABPM_._ESCAPE_._CDATA_._END]</ap:property>
+          <ap:property name="targetConnectTimeout">[ABPM_._ESCAPE_._CDATA_._START]300[ABPM_._ESCAPE_._CDATA_._END]</ap:property>
+          <ap:property name="eventContextEnabled">[ABPM_._ESCAPE_._CDATA_._START]false[ABPM_._ESCAPE_._CDATA_._END]</ap:property>
+        </ap:properties>
+        <ap:node>
+          <ap:attribute name="label">[ABPM_._ESCAPE_._CDATA_._START]SumitG_SFTP_Key_Source[ABPM_._ESCAPE_._CDATA_._END]</ap:attribute>
+          <ap:attribute name="type">[ABPM_._ESCAPE_._CDATA_._START]FtpSource[ABPM_._ESCAPE_._CDATA_._END]</ap:attribute>
+          <ap:attribute name="id">[ABPM_._ESCAPE_._CDATA_._START]1555106402851958784[ABPM_._ESCAPE_._CDATA_._END]</ap:attribute>
+          <ap:attribute name="name">[ABPM_._ESCAPE_._CDATA_._START]SumitG_SFTP_Key_Source[ABPM_._ESCAPE_._CDATA_._END]</ap:attribute>
+          <ap:attribute name="async">[ABPM_._ESCAPE_._CDATA_._START]false[ABPM_._ESCAPE_._CDATA_._END]</ap:attribute>
+          <ap:attribute name="connector">[ABPM_._ESCAPE_._CDATA_._START]false[ABPM_._ESCAPE_._CDATA_._END]</ap:attribute>
+          <ap:attribute name="signal">[ABPM_._ESCAPE_._CDATA_._START]SignalComplete[ABPM_._ESCAPE_._CDATA_._END]</ap:attribute>
+          <ap:attribute name="comments">[ABPM_._ESCAPE_._CDATA_._START][ABPM_._ESCAPE_._CDATA_._END]</ap:attribute>
+          <ap:attribute name="serverEntity">[ABPM_._ESCAPE_._CDATA_._START]false[ABPM_._ESCAPE_._CDATA_._END]</ap:attribute>
+          <ap:attribute name="serviceType">[ABPM_._ESCAPE_._CDATA_._START]activity[ABPM_._ESCAPE_._CDATA_._END]</ap:attribute>
+          <ap:attribute name="uiType">[ABPM_._ESCAPE_._CDATA_._START]FtpSource[ABPM_._ESCAPE_._CDATA_._END]</ap:attribute>
+        </ap:node>
+      </bpmn2:extensionElements>
+      <bpmn2:incoming>SequenceFlow_1nbhfi3</bpmn2:incoming>
+      <bpmn2:outgoing>SequenceFlow_1nx36kt</bpmn2:outgoing>
+    </bpmn2:task>
+    <bpmn2:task id="Task_03zz7uz" name="SumitG_SFTP_Key_Target">
+      <bpmn2:extensionElements>
+        <ap:node>
+          <ap:attribute name="label">[ABPM_._ESCAPE_._CDATA_._START]SumitG_SFTP_Key_Target[ABPM_._ESCAPE_._CDATA_._END]</ap:attribute>
+          <ap:attribute name="type">[ABPM_._ESCAPE_._CDATA_._START]FtpTarget[ABPM_._ESCAPE_._CDATA_._END]</ap:attribute>
+          <ap:attribute name="id">[ABPM_._ESCAPE_._CDATA_._START]1555106649934213120[ABPM_._ESCAPE_._CDATA_._END]</ap:attribute>
+          <ap:attribute name="name">[ABPM_._ESCAPE_._CDATA_._START]SumitG_SFTP_Key_Target[ABPM_._ESCAPE_._CDATA_._END]</ap:attribute>
+          <ap:attribute name="async">[ABPM_._ESCAPE_._CDATA_._START]false[ABPM_._ESCAPE_._CDATA_._END]</ap:attribute>
+          <ap:attribute name="connector">[ABPM_._ESCAPE_._CDATA_._START]false[ABPM_._ESCAPE_._CDATA_._END]</ap:attribute>
+          <ap:attribute name="signal">[ABPM_._ESCAPE_._CDATA_._START]SignalComplete[ABPM_._ESCAPE_._CDATA_._END]</ap:attribute>
+          <ap:attribute name="comments">[ABPM_._ESCAPE_._CDATA_._START][ABPM_._ESCAPE_._CDATA_._END]</ap:attribute>
+          <ap:attribute name="serverEntity">[ABPM_._ESCAPE_._CDATA_._START]false[ABPM_._ESCAPE_._CDATA_._END]</ap:attribute>
+          <ap:attribute name="serviceType">[ABPM_._ESCAPE_._CDATA_._START]activity[ABPM_._ESCAPE_._CDATA_._END]</ap:attribute>
+          <ap:attribute name="uiType">[ABPM_._ESCAPE_._CDATA_._START]FtpTarget[ABPM_._ESCAPE_._CDATA_._END]</ap:attribute>
+        </ap:node>
+        <ap:properties>
+          <ap:property name="restartTriesCount">[ABPM_._ESCAPE_._CDATA_._START]0[ABPM_._ESCAPE_._CDATA_._END]</ap:property>
+          <ap:property name="restartWaitTime">[ABPM_._ESCAPE_._CDATA_._START]60[ABPM_._ESCAPE_._CDATA_._END]</ap:property>
+          <ap:property name="source">[ABPM_._ESCAPE_._CDATA_._START]SumitG_SFTP_Key_Source[ABPM_._ESCAPE_._CDATA_._END]</ap:property>
+          <ap:property name="streamNames">[ABPM_._ESCAPE_._CDATA_._START][ABPM_._ESCAPE_._CDATA_._END]</ap:property>
+          <ap:property name="targetConnectTimeout">[ABPM_._ESCAPE_._CDATA_._START]300[ABPM_._ESCAPE_._CDATA_._END]</ap:property>
+        </ap:properties>
+      </bpmn2:extensionElements>
+      <bpmn2:incoming>SequenceFlow_1nx36kt</bpmn2:incoming>
+      <bpmn2:outgoing>SequenceFlow_03ol5g4</bpmn2:outgoing>
+    </bpmn2:task>
+    <bpmn2:sequenceFlow id="SequenceFlow_1nbhfi3" sourceRef="StartEvent_1" targetRef="Task_0mdm56p" />
+    <bpmn2:sequenceFlow id="SequenceFlow_1nx36kt" sourceRef="Task_0mdm56p" targetRef="Task_03zz7uz" />
+    <bpmn2:sequenceFlow id="SequenceFlow_03ol5g4" sourceRef="Task_03zz7uz" targetRef="EndEvent_0rdoizs" />
+  </bpmn2:process>
+  <bpmndi:BPMNDiagram id="BPMNDiagram_1">
+    <bpmndi:BPMNPlane id="BPMNPlane_1" bpmnElement="mainProcess">
+      <bpmndi:BPMNShape id="_BPMNShape_StartEvent_2" bpmnElement="StartEvent_1" bioc:stroke="#313131">
+        <dc:Bounds x="100" y="200" width="36" height="36" />
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="EndEvent_0rdoizs_di" bpmnElement="EndEvent_0rdoizs" bioc:stroke="#313131">
+        <dc:Bounds x="652" y="208" width="36" height="36" />
+        <bpmndi:BPMNLabel>
+          <dc:Bounds x="644" y="248" width="52" height="12" />
+        </bpmndi:BPMNLabel>
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="Task_0mdm56p_di" bpmnElement="Task_0mdm56p" bioc:stroke="#313131" bioc:fill="url(#task_color)">
+        <dc:Bounds x="218" y="196" width="130" height="60" />
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="Task_03zz7uz_di" bpmnElement="Task_03zz7uz" bioc:stroke="#313131" bioc:fill="url(#task_color)">
+        <dc:Bounds x="419" y="196" width="130" height="60" />
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNEdge id="SequenceFlow_1nbhfi3_di" bpmnElement="SequenceFlow_1nbhfi3" bioc:stroke="#008000">
+        <di:waypoint x="136" y="218" />
+        <di:waypoint x="177" y="218" />
+        <di:waypoint x="177" y="226" />
+        <di:waypoint x="218" y="226" />
+        <bpmndi:BPMNLabel>
+          <dc:Bounds x="192" y="216" width="0" height="12" />
+        </bpmndi:BPMNLabel>
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="SequenceFlow_1nx36kt_di" bpmnElement="SequenceFlow_1nx36kt" bioc:stroke="#008000">
+        <di:waypoint x="348" y="226" />
+        <di:waypoint x="419" y="226" />
+        <bpmndi:BPMNLabel>
+          <dc:Bounds x="383.5" y="205" width="0" height="12" />
+        </bpmndi:BPMNLabel>
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="SequenceFlow_03ol5g4_di" bpmnElement="SequenceFlow_03ol5g4" bioc:stroke="#313131">
+        <di:waypoint x="549" y="226" />
+        <di:waypoint x="652" y="226" />
+        <bpmndi:BPMNLabel>
+          <dc:Bounds x="600.5" y="205" width="0" height="12" />
+        </bpmndi:BPMNLabel>
+      </bpmndi:BPMNEdge>
+    </bpmndi:BPMNPlane>
+  </bpmndi:BPMNDiagram>
+</bpmn2:definitions>
+]]></au_webPdXml>
+        <au_revision><![CDATA[null]]></au_revision>
+        <au_modifiedBy><![CDATA[IndigoUser:1546384483271888896]]></au_modifiedBy>
+        <au_description><![CDATA[SumitG_SFTP_Key_PF]]></au_description>
+        <au_previousVersion><![CDATA[]]></au_previousVersion>
+        <au_userOwner><![CDATA[IndigoUser:1546384483271888896]]></au_userOwner>
+        <au_permissionMask><![CDATA[770]]></au_permissionMask>
+        <au_priority><![CDATA[LOW]]></au_priority>
+        <au_projectOwner><![CDATA[Default]]></au_projectOwner>
+        <au_modifiedDate><![CDATA[2026-10-01T09:12:40]]></au_modifiedDate>
+        <au_childFlows><![CDATA[null]]></au_childFlows>
+        <au_activeFlag><![CDATA[1]]></au_activeFlag>
+    </AU_TRANSACTION>
+    <columnInfo dbtype="4">
+        <column name="au_id" type="12"/>
+        <column name="au_version" type="12"/>
+        <column name="au_previousVersion" type="12"/>
+        <column name="au_activeVersion" type="3"/>
+        <column name="au_entityName" type="12"/>
+        <column name="au_userOwner" type="12"/>
+        <column name="au_groupOwner" type="12"/>
+        <column name="au_permissionMask" type="12"/>
+        <column name="au_description" type="12"/>
+        <column name="au_comments" type="12"/>
+        <column name="au_modifiedBy" type="12"/>
+        <column name="au_creationDate" type="93"/>
+        <column name="au_modifiedDate" type="93"/>
+        <column name="au_revision" type="12"/>
+        <column name="au_synchronized" type="3"/>
+        <column name="au_projectOwner" type="12"/>
+        <column name="au_flowDescriptor" type="-1"/>
+        <column name="au_activeFlag" type="3"/>
+        <column name="au_templateName" type="12"/>
+        <column name="au_advanced" type="3"/>
+        <column name="au_loggingLevel" type="12"/>
+        <column name="au_priority" type="12"/>
+        <column name="au_repositoryAction" type="12"/>
+        <column name="au_logRetentionAction" type="12"/>
+        <column name="au_childFlows" type="-1"/>
+        <column name="au_trackVariables" type="-1"/>
+        <column name="au_retainVarXml" type="3"/>
+        <column name="au_recoverable" type="3"/>
+        <column name="au_realTimeConfiguration" type="3"/>
+        <column name="au_webPdXml" type="-1"/>
+        <column name="au_OldFlowDescriptor" type="-1"/>
+        <column name="au_dataEncryptionAtRest" type="12"/>
+        <column name="au_connectDashboardLogging" type="3"/>
+    </columnInfo>
+</data>
