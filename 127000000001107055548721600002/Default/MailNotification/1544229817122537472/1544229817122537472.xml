@@ -1,35 +1,35 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <data>
     <AU_MailNotification>
-        <au_attachment><![CDATA[0]]></au_attachment>
-        <au_receiverEmailIds><![CDATA[sumit.ghai@adeptia.com]]></au_receiverEmailIds>
-        <au_filepath><![CDATA[]]></au_filepath>
-        <notificationCriteria><![CDATA[Executed]]></notificationCriteria>
-        <au_userOwner><![CDATA[IndigoUser:127000000001107055536473900001]]></au_userOwner>
-        <au_creationDate><![CDATA[2026-09-01T06:17:59]]></au_creationDate>
-        <au_fileName><![CDATA[]]></au_fileName>
-        <au_version><![CDATA[1]]></au_version>
-        <au_mailHeaders><![CDATA[{"Dept":"QA"}]]></au_mailHeaders>
-        <au_comments><![CDATA[null]]></au_comments>
-        <au_activeVersion><![CDATA[1]]></au_activeVersion>
-        <au_id><![CDATA[1544229817122537472]]></au_id>
-        <au_modifiedBy><![CDATA[IndigoUser:127000000001107055536473900001]]></au_modifiedBy>
-        <au_permissionMask><![CDATA[770]]></au_permissionMask>
-        <au_groupOwner><![CDATA[IndigoGroup:127000000001107055548721600002]]></au_groupOwner>
-        <au_description><![CDATA[SumitG_Mail_User_Defined_OAuth]]></au_description>
-        <au_modifiedDate><![CDATA[2026-09-01T06:17:59]]></au_modifiedDate>
         <au_authenticationType><![CDATA[OAuth 2.0]]></au_authenticationType>
+        <au_modifiedDate><![CDATA[2026-09-01T06:17:59]]></au_modifiedDate>
+        <au_version><![CDATA[1]]></au_version>
+        <au_attachment><![CDATA[0]]></au_attachment>
+        <au_description><![CDATA[SumitG_Mail_User_Defined_OAuth]]></au_description>
+        <au_receiverEmailIds><![CDATA[sumit.ghai@adeptia.com]]></au_receiverEmailIds>
         <au_encodingUsed><![CDATA[UTF-8]]></au_encodingUsed>
-        <au_projectOwner><![CDATA[Default]]></au_projectOwner>
+        <au_filepath><![CDATA[]]></au_filepath>
+        <au_comments><![CDATA[null]]></au_comments>
         <au_message><![CDATA[This is for testing user defined mail notification.]]></au_message>
-        <au_revision><![CDATA[null]]></au_revision>
-        <au_mailSubject><![CDATA[SumitG_Mail_User_Defined_OAuth]]></au_mailSubject>
+        <au_modifiedBy><![CDATA[IndigoUser:127000000001107055536473900001]]></au_modifiedBy>
+        <au_notificationType><![CDATA[STATIC]]></au_notificationType>
+        <au_oauthAccountId><![CDATA[OAuthAccount:1542050603848790016]]></au_oauthAccountId>
+        <au_revision><![CDATA[f05912a176475501a8de3fbaa7d095d6f78fb908]]></au_revision>
         <au_entityName><![CDATA[SumitG_Mail_User_Defined_OAuth]]></au_entityName>
         <au_previousVersion><![CDATA[]]></au_previousVersion>
-        <au_oauthAccountId><![CDATA[OAuthAccount:1542050603848790016]]></au_oauthAccountId>
-        <au_synchronized><![CDATA[0]]></au_synchronized>
-        <au_notificationType><![CDATA[STATIC]]></au_notificationType>
+        <au_fileName><![CDATA[]]></au_fileName>
+        <au_groupOwner><![CDATA[IndigoGroup:127000000001107055548721600002]]></au_groupOwner>
+        <au_activeVersion><![CDATA[1]]></au_activeVersion>
+        <notificationCriteria><![CDATA[Executed]]></notificationCriteria>
+        <au_projectOwner><![CDATA[Default]]></au_projectOwner>
+        <au_mailHeaders><![CDATA[{"Dept":"QA"}]]></au_mailHeaders>
+        <au_creationDate><![CDATA[2026-09-01T06:17:59]]></au_creationDate>
+        <au_mailSubject><![CDATA[SumitG_Mail_User_Defined_OAuth]]></au_mailSubject>
+        <au_synchronized><![CDATA[1]]></au_synchronized>
+        <au_id><![CDATA[1544229817122537472]]></au_id>
+        <au_userOwner><![CDATA[IndigoUser:127000000001107055536473900001]]></au_userOwner>
         <au_mailReceiverUsers><![CDATA[]]></au_mailReceiverUsers>
+        <au_permissionMask><![CDATA[770]]></au_permissionMask>
     </AU_MailNotification>
     <columnInfo dbtype="4">
         <column name="au_id" type="12"/>
