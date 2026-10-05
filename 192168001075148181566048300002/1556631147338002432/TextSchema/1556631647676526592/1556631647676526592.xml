@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<data>
+    <AU_TEXTSCHEMA>
+        <AU_QUEUECAPACITY><![CDATA[1000]]></AU_QUEUECAPACITY>
+        <au_activeVersion><![CDATA[1]]></au_activeVersion>
+        <au_creationDate><![CDATA[2026-10-05T11:38:26]]></au_creationDate>
+        <au_json><![CDATA[null]]></au_json>
+        <au_headerPresent><![CDATA[1]]></au_headerPresent>
+        <au_id><![CDATA[1556631647676526592]]></au_id>
+        <au_synchronized><![CDATA[0]]></au_synchronized>
+        <au_xsd><![CDATA[<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+	<xs:element name="Root">
+		<xs:annotation>
+			<xs:appinfo>
+				<XSDVersion>1</XSDVersion>
+				<fieldSeparator>\t</fieldSeparator>
+				<recordSeparator>\n</recordSeparator>
+				<allowDiscontinousOrder>false</allowDiscontinousOrder>
+				<allowIgnoreCase>false</allowIgnoreCase>
+				<allowMoreFields>false</allowMoreFields>
+				<allowLessFields>false</allowLessFields>
+				<removeLastNewLineSeperator>false</removeLastNewLineSeperator>
+				<removeInvalidChar>false</removeInvalidChar>
+				<enclosedChar></enclosedChar>
+				<startRowNumber>1</startRowNumber>
+				<skippedBottomRows>0</skippedBottomRows>
+				<arrayLayout>false</arrayLayout>
+			</xs:appinfo>
+		</xs:annotation>
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element name="Record" minOccurs="1" maxOccurs="unbounded">
+<xs:complexType><xs:sequence>
+<xs:element name="Vendor" minOccurs="0" maxOccurs="1" type="xs:string">
+<xs:annotation><xs:appinfo><format>AAAAAAAA</format><originalName>[ABPM_._ESCAPE_._CDATA_._START]Vendor[ABPM_._ESCAPE_._CDATA_._END]</originalName><parent> </parent>
+</xs:appinfo></xs:annotation></xs:element>
+<xs:element name="OrderNumber" minOccurs="0" maxOccurs="1" type="xs:string">
+<xs:annotation><xs:appinfo><format>AAAAAAAA</format><originalName>[ABPM_._ESCAPE_._CDATA_._START]OrderNumber[ABPM_._ESCAPE_._CDATA_._END]</originalName><parent> </parent>
+</xs:appinfo></xs:annotation></xs:element>
+<xs:element name="Ship_To" minOccurs="0" maxOccurs="1" type="xs:string">
+<xs:annotation><xs:appinfo><format>AAAAAAAA</format><originalName>[ABPM_._ESCAPE_._CDATA_._START]Ship_To[ABPM_._ESCAPE_._CDATA_._END]</originalName><parent> </parent>
+</xs:appinfo></xs:annotation></xs:element>
+<xs:element name="Attention" minOccurs="0" maxOccurs="1" type="xs:string">
+<xs:annotation><xs:appinfo><format>AAAAAAAA</format><originalName>[ABPM_._ESCAPE_._CDATA_._START]Attention[ABPM_._ESCAPE_._CDATA_._END]</originalName><parent> </parent>
+</xs:appinfo></xs:annotation></xs:element>
+<xs:element name="ShipAddr1" minOccurs="0" maxOccurs="1" type="xs:string">
+<xs:annotation><xs:appinfo><format>AAAAAAAA</format><originalName>[ABPM_._ESCAPE_._CDATA_._START]ShipAddr1[ABPM_._ESCAPE_._CDATA_._END]</originalName><parent> </parent>
+</xs:appinfo></xs:annotation></xs:element>
+<xs:element name="ShipAddr2" minOccurs="0" maxOccurs="1" type="xs:string">
+<xs:annotation><xs:appinfo><format>AAAAAAAA</format><originalName>[ABPM_._ESCAPE_._CDATA_._START]ShipAddr2[ABPM_._ESCAPE_._CDATA_._END]</originalName><parent> </parent>
+</xs:appinfo></xs:annotation></xs:element>
+<xs:element name="Ship_State" minOccurs="0" maxOccurs="1" type="xs:string">
+<xs:annotation><xs:appinfo><format>AAAAAAAA</format><originalName>[ABPM_._ESCAPE_._CDATA_._START]Ship_State[ABPM_._ESCAPE_._CDATA_._END]</originalName><parent> </parent>
+</xs:appinfo></xs:annotation></xs:element>
+<xs:element name="Ship_Zip" minOccurs="0" maxOccurs="1" type="xs:string">
+<xs:annotation><xs:appinfo><format>AAAAAAAA</format><originalName>[ABPM_._ESCAPE_._CDATA_._START]Ship_Zip[ABPM_._ESCAPE_._CDATA_._END]</originalName><parent> </parent>
+</xs:appinfo></xs:annotation></xs:element>
+<xs:element name="Ship_Country" minOccurs="0" maxOccurs="1" type="xs:string">
+<xs:annotation><xs:appinfo><format>AAAAAAAA</format><originalName>[ABPM_._ESCAPE_._CDATA_._START]Ship_Country[ABPM_._ESCAPE_._CDATA_._END]</originalName><parent> </parent>
+</xs:appinfo></xs:annotation></xs:element>
+<xs:element name="Quantity" minOccurs="0" maxOccurs="1" type="xs:string">
+<xs:annotation><xs:appinfo><format>AAAAAAAA</format><originalName>[ABPM_._ESCAPE_._CDATA_._START]Quantity[ABPM_._ESCAPE_._CDATA_._END]</originalName><parent> </parent>
+</xs:appinfo></xs:annotation></xs:element>
+<xs:element name="Item_Code" minOccurs="0" maxOccurs="1" type="xs:string">
+<xs:annotation><xs:appinfo><format>AAAAAAAA</format><originalName>[ABPM_._ESCAPE_._CDATA_._START]Item_Code[ABPM_._ESCAPE_._CDATA_._END]</originalName><parent> </parent>
+</xs:appinfo></xs:annotation></xs:element>
+<xs:element name="Part_Number" minOccurs="0" maxOccurs="1" type="xs:string">
+<xs:annotation><xs:appinfo><format>AAAAAAAA</format><originalName>[ABPM_._ESCAPE_._CDATA_._START]Part_Number[ABPM_._ESCAPE_._CDATA_._END]</originalName><parent> </parent>
+</xs:appinfo></xs:annotation></xs:element>
+<xs:element name="Description" minOccurs="0" maxOccurs="1" type="xs:string">
+<xs:annotation><xs:appinfo><format>AAAAAAAA</format><originalName>[ABPM_._ESCAPE_._CDATA_._START]Description[ABPM_._ESCAPE_._CDATA_._END]</originalName><parent> </parent>
+</xs:appinfo></xs:annotation></xs:element>
+<xs:element name="Unit_Price" minOccurs="0" maxOccurs="1" type="xs:string">
+<xs:annotation><xs:appinfo><format>AAAAAAAA</format><originalName>[ABPM_._ESCAPE_._CDATA_._START]Unit_Price[ABPM_._ESCAPE_._CDATA_._END]</originalName><parent> </parent>
+</xs:appinfo></xs:annotation></xs:element>
+<xs:element name="UoM" minOccurs="0" maxOccurs="1" type="xs:string">
+<xs:annotation><xs:appinfo><format>AAAAAAAA</format><originalName>[ABPM_._ESCAPE_._CDATA_._START]UoM[ABPM_._ESCAPE_._CDATA_._END]</originalName><parent> </parent>
+</xs:appinfo></xs:annotation></xs:element>
+<xs:element name="SubTotal" minOccurs="0" maxOccurs="1" type="xs:string">
+<xs:annotation><xs:appinfo><format>AAAAAAAA</format><originalName>[ABPM_._ESCAPE_._CDATA_._START]SubTotal[ABPM_._ESCAPE_._CDATA_._END]</originalName><parent> </parent>
+</xs:appinfo></xs:annotation></xs:element>
+</xs:sequence>
+<xs:attribute name="recordNumber" type="xs:string" use="required"/>
+</xs:complexType></xs:element>
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+</xs:schema>]]></au_xsd>
+        <AU_REUSABLE><![CDATA[1]]></AU_REUSABLE>
+        <au_modifiedDate><![CDATA[2026-10-05T11:38:26]]></au_modifiedDate>
+        <au_encodingUsed><![CDATA[UTF-8]]></au_encodingUsed>
+        <au_userOwner><![CDATA[IndigoUser:1556597687705661440]]></au_userOwner>
+        <au_revision><![CDATA[null]]></au_revision>
+        <au_permissionMask><![CDATA[770]]></au_permissionMask>
+        <au_previousVersion><![CDATA[]]></au_previousVersion>
+        <au_advancedSchema><![CDATA[1]]></au_advancedSchema>
+        <au_description><![CDATA[Drv_textLayout2]]></au_description>
+        <au_version><![CDATA[1]]></au_version>
+        <AU_ENRICHED_JSON><![CDATA[null]]></AU_ENRICHED_JSON>
+        <xsdFilePath><![CDATA[]]></xsdFilePath>
+        <au_projectOwner><![CDATA[Project:1556631147338002432]]></au_projectOwner>
+        <au_groupOwner><![CDATA[IndigoGroup:192168001075148181566048300002]]></au_groupOwner>
+        <AU_OPTIMIZE_PROCESSING><![CDATA[0]]></AU_OPTIMIZE_PROCESSING>
+        <au_comments><![CDATA[null]]></au_comments>
+        <au_quotesHandlingOn><![CDATA[0]]></au_quotesHandlingOn>
+        <au_decryptSecretKey><![CDATA[null]]></au_decryptSecretKey>
+        <au_encloseFieldsInQuotes><![CDATA[0]]></au_encloseFieldsInQuotes>
+        <au_encryptSecretKey><![CDATA[null]]></au_encryptSecretKey>
+        <au_modifiedBy><![CDATA[IndigoUser:1556597687705661440]]></au_modifiedBy>
+        <au_entityName><![CDATA[Drv_textLayout2]]></au_entityName>
+    </AU_TEXTSCHEMA>
+    <columnInfo dbtype="4">
+        <column name="au_id" type="12"/>
+        <column name="au_version" type="12"/>
+        <column name="au_previousVersion" type="12"/>
+        <column name="au_activeVersion" type="3"/>
+        <column name="au_entityName" type="12"/>
+        <column name="au_userOwner" type="12"/>
+        <column name="au_groupOwner" type="12"/>
+        <column name="au_permissionMask" type="12"/>
+        <column name="au_description" type="12"/>
+        <column name="au_comments" type="12"/>
+        <column name="au_modifiedBy" type="12"/>
+        <column name="au_creationDate" type="93"/>
+        <column name="au_modifiedDate" type="93"/>
+        <column name="au_revision" type="12"/>
+        <column name="au_synchronized" type="3"/>
+        <column name="au_projectOwner" type="12"/>
+        <column name="au_xsd" type="-1"/>
+        <column name="xsdFilePath" type="12"/>
+        <column name="au_encodingUsed" type="12"/>
+        <column name="AU_REUSABLE" type="3"/>
+        <column name="au_advancedSchema" type="3"/>
+        <column name="au_headerPresent" type="3"/>
+        <column name="au_quotesHandlingOn" type="3"/>
+        <column name="au_encloseFieldsInQuotes" type="3"/>
+        <column name="au_encryptSecretKey" type="12"/>
+        <column name="au_decryptSecretKey" type="12"/>
+        <column name="au_json" type="-1"/>
+        <column name="AU_OPTIMIZE_PROCESSING" type="3"/>
+        <column name="AU_QUEUECAPACITY" type="4"/>
+        <column name="AU_ENRICHED_JSON" type="-1"/>
+    </columnInfo>
+</data>
