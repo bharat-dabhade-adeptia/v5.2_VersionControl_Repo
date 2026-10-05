@@ -1,24 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <data>
     <AU_PROJECT>
-        <au_groupOwner><![CDATA[IndigoGroup:192168001075148181566048300002]]></au_groupOwner>
-        <au_comments><![CDATA[null]]></au_comments>
-        <au_userOwner><![CDATA[IndigoUser:1542506354383319040]]></au_userOwner>
-        <au_activeVersion><![CDATA[1]]></au_activeVersion>
-        <au_synchronized><![CDATA[null]]></au_synchronized>
-        <au_previousVersion><![CDATA[]]></au_previousVersion>
         <au_version><![CDATA[1]]></au_version>
-        <au_projectOwner><![CDATA[null]]></au_projectOwner>
+        <au_userOwner><![CDATA[IndigoUser:1542506354383319040]]></au_userOwner>
         <au_creationDate><![CDATA[2026-04-23T04:53:54]]></au_creationDate>
+        <au_synchronized><![CDATA[1]]></au_synchronized>
         <au_projectType><![CDATA[3700]]></au_projectType>
-        <au_entityName><![CDATA[TestObjects]]></au_entityName>
-        <au_modifiedDate><![CDATA[2026-04-23T04:53:54]]></au_modifiedDate>
-        <au_id><![CDATA[1496735849309552640]]></au_id>
-        <au_modifiedBy><![CDATA[IndigoUser:1542506354383319040]]></au_modifiedBy>
-        <au_revision><![CDATA[null]]></au_revision>
         <au_description><![CDATA[TestObjects]]></au_description>
+        <au_id><![CDATA[1496735849309552640]]></au_id>
+        <au_comments><![CDATA[null]]></au_comments>
+        <au_groupOwner><![CDATA[IndigoGroup:192168001075148181566048300002]]></au_groupOwner>
+        <au_activeVersion><![CDATA[1]]></au_activeVersion>
+        <au_modifiedBy><![CDATA[IndigoUser:1542506354383319040]]></au_modifiedBy>
+        <au_projectOwner><![CDATA[null]]></au_projectOwner>
         <au_permissionMask><![CDATA[777]]></au_permissionMask>
+        <au_previousVersion><![CDATA[]]></au_previousVersion>
+        <au_revision><![CDATA[0545a3cb59887bd8182074a57e18b19e719eb7b5]]></au_revision>
+        <au_entityName><![CDATA[TestObjects]]></au_entityName>
         <au_projectGroup><![CDATA[IndigoGroup:192168001075148181566048300002]]></au_projectGroup>
+        <au_modifiedDate><![CDATA[2026-04-23T04:53:54]]></au_modifiedDate>
     </AU_PROJECT>
     <columnInfo dbtype="4">
         <column name="au_id" type="12"/>
