@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<data>
+    <AU_BUSINESS_RULE>
+        <au_id><![CDATA[1413090584907472896]]></au_id>
+        <au_modifiedDate><![CDATA[2026-10-05T12:15:32]]></au_modifiedDate>
+        <au_synchronized><![CDATA[0]]></au_synchronized>
+        <au_creationDate><![CDATA[null]]></au_creationDate>
+        <au_previousVersion><![CDATA[]]></au_previousVersion>
+        <au_json_layout><![CDATA[1266300568881840128]]></au_json_layout>
+        <au_description><![CDATA[IDP_BusinessRule]]></au_description>
+        <au_comments><![CDATA[null]]></au_comments>
+        <au_entityName><![CDATA[IDP_BusinessRule]]></au_entityName>
+        <au_permissionMask><![CDATA[770]]></au_permissionMask>
+        <au_activeVersion><![CDATA[1]]></au_activeVersion>
+        <au_groupOwner><![CDATA[IndigoGroup:127000000001107055548721600002]]></au_groupOwner>
+        <au_modifiedBy><![CDATA[IndigoUser:127000000001107055536473900001]]></au_modifiedBy>
+        <au_version><![CDATA[1]]></au_version>
+        <au_revision><![CDATA[null]]></au_revision>
+        <au_userOwner><![CDATA[IndigoUser:127000000001107055536473900001]]></au_userOwner>
+        <AU_CONFIGURATION><![CDATA[{"maxRetryAttempts":3,"minBackoffTime":1,"maxBackoffTime":10,"connectTimeout":5,"writeTimeout":10,"readTimeout":300,"mergeInputData":"No"}]]></AU_CONFIGURATION>
+        <AU_JSON_DATA><![CDATA[null]]></AU_JSON_DATA>
+        <au_projectOwner><![CDATA[Default]]></au_projectOwner>
+    </AU_BUSINESS_RULE>
+    <columnInfo dbtype="4">
+        <column name="au_id" type="12"/>
+        <column name="au_version" type="12"/>
+        <column name="au_previousVersion" type="12"/>
+        <column name="au_activeVersion" type="3"/>
+        <column name="au_entityName" type="12"/>
+        <column name="au_userOwner" type="12"/>
+        <column name="au_groupOwner" type="12"/>
+        <column name="au_permissionMask" type="12"/>
+        <column name="au_description" type="12"/>
+        <column name="au_comments" type="12"/>
+        <column name="au_modifiedBy" type="12"/>
+        <column name="au_creationDate" type="93"/>
+        <column name="au_modifiedDate" type="93"/>
+        <column name="au_revision" type="12"/>
+        <column name="au_synchronized" type="3"/>
+        <column name="au_projectOwner" type="12"/>
+        <column name="au_json_layout" type="12"/>
+        <column name="AU_CONFIGURATION" type="12"/>
+        <column name="AU_JSON_DATA" type="-1"/>
+    </columnInfo>
+</data>
