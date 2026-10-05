@@ -1,26 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <data>
     <AU_DASHBOARDDESIGN>
-        <au_description><![CDATA[Custom_Dashboard_Design]]></au_description>
-        <au_previousVersion><![CDATA[]]></au_previousVersion>
-        <au_version><![CDATA[1]]></au_version>
-        <au_creationDate><![CDATA[2026-10-05T12:35:25]]></au_creationDate>
-        <au_userOwner><![CDATA[IndigoUser:127000000001107055536473900001]]></au_userOwner>
-        <au_activeVersion><![CDATA[1]]></au_activeVersion>
-        <au_revision><![CDATA[null]]></au_revision>
-        <au_permissionMask><![CDATA[770]]></au_permissionMask>
-        <au_groupOwner><![CDATA[IndigoGroup:127000000001107055548721600002]]></au_groupOwner>
-        <au_barChart><![CDATA[Custom_Dashboard_Component:1556645942414012416]]></au_barChart>
-        <au_stringChart><![CDATA[]]></au_stringChart>
-        <au_synchronized><![CDATA[0]]></au_synchronized>
-        <au_modifiedBy><![CDATA[IndigoUser:127000000001107055536473900001]]></au_modifiedBy>
-        <au_modifiedDate><![CDATA[2026-10-05T12:35:25]]></au_modifiedDate>
+        <au_modifiedDate><![CDATA[2026-10-05T12:39:21]]></au_modifiedDate>
         <au_comments><![CDATA[null]]></au_comments>
-        <au_entityName><![CDATA[Custom_Dashboard_Design]]></au_entityName>
         <au_pieChart><![CDATA[]]></au_pieChart>
+        <au_activeVersion><![CDATA[1]]></au_activeVersion>
+        <au_userOwner><![CDATA[IndigoUser:127000000001107055536473900001]]></au_userOwner>
+        <au_modifiedBy><![CDATA[IndigoUser:127000000001107055536473900001]]></au_modifiedBy>
+        <au_version><![CDATA[1]]></au_version>
         <au_projectOwner><![CDATA[Default]]></au_projectOwner>
-        <au_id><![CDATA[1556645990505902080]]></au_id>
+        <au_entityName><![CDATA[Custom_Dashboard_Design_12345]]></au_entityName>
         <au_tableChart><![CDATA[]]></au_tableChart>
+        <au_permissionMask><![CDATA[770]]></au_permissionMask>
+        <au_revision><![CDATA[d8fd505e75cf49f4a025b3da7a8568885daf980f]]></au_revision>
+        <au_stringChart><![CDATA[]]></au_stringChart>
+        <au_id><![CDATA[1556645990505902080]]></au_id>
+        <au_previousVersion><![CDATA[]]></au_previousVersion>
+        <au_description><![CDATA[Custom_Dashboard_Design]]></au_description>
+        <au_synchronized><![CDATA[0]]></au_synchronized>
+        <au_creationDate><![CDATA[2026-10-05T12:35:25]]></au_creationDate>
+        <au_barChart><![CDATA[Custom_Dashboard_Component_1234ss:1556645942414012416]]></au_barChart>
+        <au_groupOwner><![CDATA[IndigoGroup:127000000001107055548721600002]]></au_groupOwner>
     </AU_DASHBOARDDESIGN>
     <columnInfo dbtype="4">
         <column name="au_id" type="12"/>
