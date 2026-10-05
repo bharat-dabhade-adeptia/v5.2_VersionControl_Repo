@@ -1,24 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <data>
     <AU_PROJECT>
-        <au_synchronized><![CDATA[1]]></au_synchronized>
+        <au_entityName><![CDATA[Project_1]]></au_entityName>
+        <au_previousVersion><![CDATA[null]]></au_previousVersion>
+        <au_comments><![CDATA[null]]></au_comments>
         <au_modifiedDate><![CDATA[2017-01-18T11:16:24]]></au_modifiedDate>
-        <au_description><![CDATA[Project_1]]></au_description>
         <au_modifiedBy><![CDATA[IndigoUser:1542506354383319040]]></au_modifiedBy>
         <au_id><![CDATA[11484550701988]]></au_id>
-        <au_comments><![CDATA[null]]></au_comments>
         <au_projectType><![CDATA[3700]]></au_projectType>
-        <au_userOwner><![CDATA[IndigoUser:1542506354383319040]]></au_userOwner>
-        <au_creationDate><![CDATA[2017-01-18T11:16:24]]></au_creationDate>
-        <au_version><![CDATA[1]]></au_version>
-        <au_entityName><![CDATA[Project_1]]></au_entityName>
-        <au_revision><![CDATA[102a2c55706185103d0518595a63d246f81f7c1e]]></au_revision>
-        <au_previousVersion><![CDATA[null]]></au_previousVersion>
+        <au_projectOwner><![CDATA[null]]></au_projectOwner>
         <au_projectGroup><![CDATA[IndigoGroup:192168001075148181566048300002]]></au_projectGroup>
         <au_permissionMask><![CDATA[777]]></au_permissionMask>
+        <au_revision><![CDATA[255e0065e61a1a2175abe4db25231ba2523001c2]]></au_revision>
+        <au_userOwner><![CDATA[IndigoUser:1542506354383319040]]></au_userOwner>
+        <au_version><![CDATA[1]]></au_version>
         <au_groupOwner><![CDATA[IndigoGroup:192168001075148181566048300002]]></au_groupOwner>
-        <au_projectOwner><![CDATA[null]]></au_projectOwner>
         <au_activeVersion><![CDATA[1]]></au_activeVersion>
+        <au_description><![CDATA[Project_1]]></au_description>
+        <au_synchronized><![CDATA[1]]></au_synchronized>
+        <au_creationDate><![CDATA[2017-01-18T11:16:24]]></au_creationDate>
     </AU_PROJECT>
     <columnInfo dbtype="4">
         <column name="au_id" type="12"/>
