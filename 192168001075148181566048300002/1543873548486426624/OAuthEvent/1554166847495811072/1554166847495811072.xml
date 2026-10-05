@@ -1,48 +1,48 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <data>
     <AU_OAUTHEVENT>
-        <au_runInitialLoad><![CDATA[1]]></au_runInitialLoad>
-        <au_previousVersion><![CDATA[]]></au_previousVersion>
-        <au_adapterType><![CDATA[1194602506738491392]]></au_adapterType>
         <au_activeVersion><![CDATA[1]]></au_activeVersion>
-        <au_receiverEmailIds><![CDATA[null]]></au_receiverEmailIds>
-        <au_reqSchemaId><![CDATA[null]]></au_reqSchemaId>
-        <au_entityName><![CDATA[bd_GD_NewFileinDirectory_RunInitialLoad_Trigger]]></au_entityName>
-        <au_eventExpiryDateTime><![CDATA[null]]></au_eventExpiryDateTime>
-        <au_processPerPoll><![CDATA[-1]]></au_processPerPoll>
-        <au_groupOwner><![CDATA[IndigoGroup:192168001075148181566048300002]]></au_groupOwner>
-        <au_mcpToolInputs><![CDATA[null]]></au_mcpToolInputs>
-        <au_version><![CDATA[1]]></au_version>
-        <au_userOwner><![CDATA[IndigoUser:1542395995051847680]]></au_userOwner>
-        <au_description><![CDATA[bd_GD_NewFileinDirectory_RunInitialLoad_Trigger]]></au_description>
-        <au_synchronized><![CDATA[0]]></au_synchronized>
-        <au_misFireInstructions><![CDATA[null]]></au_misFireInstructions>
-        <au_projectOwner><![CDATA[Project:1543873548486426624]]></au_projectOwner>
-        <au_referenceField><![CDATA[{"dynamicParams":[],"pathparams":[],"queryparams":[{"q":"11Ga2JL0MYRJ7TzVFOthJsdVnjG9auRXB"}],"headerparams":[],"customparams":[],"dynamicUiParams":[{"q":"/Src"}]}]]></au_referenceField>
-        <au_triggerInSequence><![CDATA[0]]></au_triggerInSequence>
-        <au_revision><![CDATA[null]]></au_revision>
-        <au_comments><![CDATA[null]]></au_comments>
-        <au_creationMode><![CDATA[Simple]]></au_creationMode>
-        <au_eventStartDateTime><![CDATA[null]]></au_eventStartDateTime>
-        <au_permissionMask><![CDATA[770]]></au_permissionMask>
-        <au_modifiedDate><![CDATA[2026-10-05T11:17:59]]></au_modifiedDate>
-        <au_businessInterval><![CDATA[]]></au_businessInterval>
-        <au_filterIn><![CDATA[*.*]]></au_filterIn>
-        <au_fileBaseLocation><![CDATA[null]]></au_fileBaseLocation>
-        <au_calendarType><![CDATA[AllDays]]></au_calendarType>
-        <au_creationDate><![CDATA[2026-09-28T16:24:11]]></au_creationDate>
-        <AU_EVENTTIMEZONE><![CDATA[]]></AU_EVENTTIMEZONE>
-        <au_stableTime><![CDATA[10$s]]></au_stableTime>
-        <au_resSchemaId><![CDATA[null]]></au_resSchemaId>
-        <AU_MAILNOTIFICATIONACTION><![CDATA[null]]></AU_MAILNOTIFICATIONACTION>
-        <au_accountId><![CDATA[OAuthAccount:1554049191339737088]]></au_accountId>
-        <au_pollingFrequency><![CDATA[1$m]]></au_pollingFrequency>
-        <au_parametersXml><![CDATA[<fields><field><name>deleteOnSuccess</name><value>[ABPM_._ESCAPE_._CDATA_._START]false[ABPM_._ESCAPE_._CDATA_._END]</value></field></fields>]]></au_parametersXml>
-        <au_connectorId><![CDATA[1194602506738491392]]></au_connectorId>
-        <au_modifiedBy><![CDATA[IndigoUser:127000000001107055536473900001]]></au_modifiedBy>
         <au_activateFlag><![CDATA[0]]></au_activateFlag>
-        <au_triggerType><![CDATA[NewOrUpdatedFile]]></au_triggerType>
+        <au_pollingFrequency><![CDATA[1$m]]></au_pollingFrequency>
+        <au_referenceField><![CDATA[{"dynamicParams":[],"pathparams":[],"queryparams":[{"q":"11Ga2JL0MYRJ7TzVFOthJsdVnjG9auRXB"}],"headerparams":[],"customparams":[],"dynamicUiParams":[{"q":"/Src"}]}]]></au_referenceField>
+        <au_reqSchemaId><![CDATA[null]]></au_reqSchemaId>
+        <au_misFireInstructions><![CDATA[null]]></au_misFireInstructions>
+        <au_synchronized><![CDATA[0]]></au_synchronized>
+        <au_groupOwner><![CDATA[IndigoGroup:192168001075148181566048300002]]></au_groupOwner>
+        <au_calendarType><![CDATA[AllDays]]></au_calendarType>
+        <au_mcpToolInputs><![CDATA[null]]></au_mcpToolInputs>
+        <au_runInitialLoad><![CDATA[1]]></au_runInitialLoad>
+        <au_adapterType><![CDATA[1194602506738491392]]></au_adapterType>
+        <au_version><![CDATA[1]]></au_version>
+        <au_description><![CDATA[bd_GD_NewFileinDirectory_RunInitialLoad_Trigger]]></au_description>
+        <au_resSchemaId><![CDATA[null]]></au_resSchemaId>
         <au_id><![CDATA[1554166847495811072]]></au_id>
+        <au_eventExpiryDateTime><![CDATA[null]]></au_eventExpiryDateTime>
+        <au_connectorId><![CDATA[1194602506738491392]]></au_connectorId>
+        <AU_EVENTTIMEZONE><![CDATA[]]></AU_EVENTTIMEZONE>
+        <au_creationMode><![CDATA[Simple]]></au_creationMode>
+        <au_stableTime><![CDATA[10$s]]></au_stableTime>
+        <au_businessInterval><![CDATA[]]></au_businessInterval>
+        <au_accountId><![CDATA[OAuthAccount:1554049191339737088]]></au_accountId>
+        <au_modifiedDate><![CDATA[2026-10-05T12:28:08]]></au_modifiedDate>
+        <au_parametersXml><![CDATA[<fields><field><name>deleteOnSuccess</name><value>[ABPM_._ESCAPE_._CDATA_._START]false[ABPM_._ESCAPE_._CDATA_._END]</value></field></fields>]]></au_parametersXml>
+        <au_fileBaseLocation><![CDATA[null]]></au_fileBaseLocation>
+        <au_previousVersion><![CDATA[]]></au_previousVersion>
+        <AU_MAILNOTIFICATIONACTION><![CDATA[null]]></AU_MAILNOTIFICATIONACTION>
+        <au_triggerType><![CDATA[NewOrUpdatedFile]]></au_triggerType>
+        <au_modifiedBy><![CDATA[IndigoUser:127000000001107055536473900001]]></au_modifiedBy>
+        <au_receiverEmailIds><![CDATA[null]]></au_receiverEmailIds>
+        <au_projectOwner><![CDATA[Project:1543873548486426624]]></au_projectOwner>
+        <au_permissionMask><![CDATA[770]]></au_permissionMask>
+        <au_filterIn><![CDATA[*.*]]></au_filterIn>
+        <au_revision><![CDATA[6f1c1cdf2b2e3b00f123b4751332221a94371c5a]]></au_revision>
+        <au_entityName><![CDATA[bd_GD_NewFileinDirectory_RunInitialLoad_Trigger]]></au_entityName>
+        <au_processPerPoll><![CDATA[-1]]></au_processPerPoll>
+        <au_userOwner><![CDATA[IndigoUser:1542395995051847680]]></au_userOwner>
+        <au_triggerInSequence><![CDATA[0]]></au_triggerInSequence>
+        <au_creationDate><![CDATA[2026-09-28T16:24:11]]></au_creationDate>
+        <au_eventStartDateTime><![CDATA[null]]></au_eventStartDateTime>
+        <au_comments><![CDATA[null]]></au_comments>
     </AU_OAUTHEVENT>
     <columnInfo dbtype="4">
         <column name="au_id" type="12"/>
