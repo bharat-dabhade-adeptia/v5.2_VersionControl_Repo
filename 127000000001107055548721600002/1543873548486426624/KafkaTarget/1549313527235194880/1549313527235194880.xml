@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<data>
+    <AU_KafkaTarget>
+        <au_modifiedBy><![CDATA[IndigoUser:127000000001107055536473900001]]></au_modifiedBy>
+        <au_groupOwner><![CDATA[IndigoGroup:127000000001107055548721600002]]></au_groupOwner>
+        <au_synchronized><![CDATA[0]]></au_synchronized>
+        <au_modifiedDate><![CDATA[2026-10-05T06:41:01]]></au_modifiedDate>
+        <au_messageTypes><![CDATA[plaintext]]></au_messageTypes>
+        <au_previousVersion><![CDATA[]]></au_previousVersion>
+        <au_requestRequiredAcks><![CDATA[1]]></au_requestRequiredAcks>
+        <au_comments><![CDATA[null]]></au_comments>
+        <au_creationDate><![CDATA[2026-09-15T06:58:50]]></au_creationDate>
+        <au_messageSplitter><![CDATA[]]></au_messageSplitter>
+        <au_compression><![CDATA[none]]></au_compression>
+        <au_entityName><![CDATA[sv_kafka_target]]></au_entityName>
+        <au_revision><![CDATA[null]]></au_revision>
+        <au_activeVersion><![CDATA[1]]></au_activeVersion>
+        <au_description><![CDATA[sv_kafka_target]]></au_description>
+        <au_retries><![CDATA[0]]></au_retries>
+        <au_requestTimeoutMs><![CDATA[30000]]></au_requestTimeoutMs>
+        <au_messageKey><![CDATA[qa]]></au_messageKey>
+        <au_topic><![CDATA[qa-test]]></au_topic>
+        <au_version><![CDATA[1]]></au_version>
+        <au_kafkaAccount><![CDATA[1506880932518260736]]></au_kafkaAccount>
+        <au_userOwner><![CDATA[IndigoUser:127000000001107055536473900001]]></au_userOwner>
+        <au_enableMessageSplitter><![CDATA[0]]></au_enableMessageSplitter>
+        <au_permissionMask><![CDATA[770]]></au_permissionMask>
+        <au_id><![CDATA[1549313527235194880]]></au_id>
+        <au_batchSize><![CDATA[16384]]></au_batchSize>
+        <au_projectOwner><![CDATA[Project:1543873548486426624]]></au_projectOwner>
+    </AU_KafkaTarget>
+    <columnInfo dbtype="4">
+        <column name="au_id" type="12"/>
+        <column name="au_version" type="12"/>
+        <column name="au_previousVersion" type="12"/>
+        <column name="au_activeVersion" type="3"/>
+        <column name="au_entityName" type="12"/>
+        <column name="au_userOwner" type="12"/>
+        <column name="au_groupOwner" type="12"/>
+        <column name="au_permissionMask" type="12"/>
+        <column name="au_description" type="12"/>
+        <column name="au_comments" type="12"/>
+        <column name="au_modifiedBy" type="12"/>
+        <column name="au_creationDate" type="93"/>
+        <column name="au_modifiedDate" type="93"/>
+        <column name="au_revision" type="12"/>
+        <column name="au_synchronized" type="3"/>
+        <column name="au_projectOwner" type="12"/>
+        <column name="au_topic" type="12"/>
+        <column name="au_messageKey" type="12"/>
+        <column name="au_compression" type="12"/>
+        <column name="au_kafkaAccount" type="12"/>
+        <column name="au_requestTimeoutMs" type="3"/>
+        <column name="au_retries" type="3"/>
+        <column name="au_batchSize" type="3"/>
+        <column name="au_requestRequiredAcks" type="12"/>
+        <column name="au_enableMessageSplitter" type="3"/>
+        <column name="au_messageTypes" type="12"/>
+        <column name="au_messageSplitter" type="12"/>
+    </columnInfo>
+</data>
