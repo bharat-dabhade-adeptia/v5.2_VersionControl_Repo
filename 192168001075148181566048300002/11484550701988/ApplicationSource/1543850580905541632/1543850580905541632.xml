@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<data>
+    <AU_APPLICATIONSOURCE>
+        <au_groupOwner><![CDATA[IndigoGroup:192168001075148181566048300002]]></au_groupOwner>
+        <au_entityName><![CDATA[bd_22_azureFile_GetFile_Application_Src]]></au_entityName>
+        <au_referenceField><![CDATA[]]></au_referenceField>
+        <au_persistDataEnabled><![CDATA[0]]></au_persistDataEnabled>
+        <au_previousVersion><![CDATA[]]></au_previousVersion>
+        <au_comments><![CDATA[null]]></au_comments>
+        <au_permissionMask><![CDATA[770]]></au_permissionMask>
+        <au_modifiedDate><![CDATA[2026-09-22T07:57:19]]></au_modifiedDate>
+        <au_fileBaseLocation><![CDATA[Bharat_Src]]></au_fileBaseLocation>
+        <au_triggerType><![CDATA[GetFile]]></au_triggerType>
+        <au_id><![CDATA[1543850580905541632]]></au_id>
+        <au_projectOwner><![CDATA[Project:11484550701988]]></au_projectOwner>
+        <au_userOwner><![CDATA[IndigoUser:1542395995051847680]]></au_userOwner>
+        <au_adapterType><![CDATA[azurefile]]></au_adapterType>
+        <au_deleteOnSuccess><![CDATA[0]]></au_deleteOnSuccess>
+        <au_creationDate><![CDATA[2026-08-31T05:11:02]]></au_creationDate>
+        <au_activeVersion><![CDATA[1]]></au_activeVersion>
+        <au_synchronized><![CDATA[0]]></au_synchronized>
+        <au_fileName><![CDATA[StringFunction.txt]]></au_fileName>
+        <au_version><![CDATA[1]]></au_version>
+        <au_accountId><![CDATA[OAuthAccount:1543911301303484416]]></au_accountId>
+        <au_revision><![CDATA[null]]></au_revision>
+        <au_modifiedBy><![CDATA[IndigoUser:127000000001107055536473900001]]></au_modifiedBy>
+        <au_description><![CDATA[bd_22_azureFile_GetFile_Application_Src]]></au_description>
+    </AU_APPLICATIONSOURCE>
+    <columnInfo dbtype="4">
+        <column name="au_id" type="12"/>
+        <column name="au_version" type="12"/>
+        <column name="au_previousVersion" type="12"/>
+        <column name="au_activeVersion" type="3"/>
+        <column name="au_entityName" type="12"/>
+        <column name="au_userOwner" type="12"/>
+        <column name="au_groupOwner" type="12"/>
+        <column name="au_permissionMask" type="12"/>
+        <column name="au_description" type="12"/>
+        <column name="au_comments" type="12"/>
+        <column name="au_modifiedBy" type="12"/>
+        <column name="au_creationDate" type="93"/>
+        <column name="au_modifiedDate" type="93"/>
+        <column name="au_revision" type="12"/>
+        <column name="au_synchronized" type="3"/>
+        <column name="au_projectOwner" type="12"/>
+        <column name="au_persistDataEnabled" type="3"/>
+        <column name="au_adapterType" type="12"/>
+        <column name="au_accountId" type="12"/>
+        <column name="au_fileBaseLocation" type="12"/>
+        <column name="au_fileName" type="12"/>
+        <column name="au_deleteOnSuccess" type="3"/>
+        <column name="au_triggerType" type="12"/>
+        <column name="au_referenceField" type="12"/>
+    </columnInfo>
+</data>
