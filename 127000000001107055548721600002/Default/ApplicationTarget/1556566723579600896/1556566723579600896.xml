@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<data>
+    <AU_APPLICATIONTARGET>
+        <au_filterIn><![CDATA[{"filter":[],"operator":"AND"}]]></au_filterIn>
+        <au_connectorId><![CDATA[1194598620975882240]]></au_connectorId>
+        <au_adapterProtocol><![CDATA[]]></au_adapterProtocol>
+        <au_creationDate><![CDATA[2026-10-05T07:20:27]]></au_creationDate>
+        <au_modifiedBy><![CDATA[IndigoUser:1546384483271888896]]></au_modifiedBy>
+        <au_adapterType><![CDATA[1194598620975882240]]></au_adapterType>
+        <au_fileBaseLocation><![CDATA[null]]></au_fileBaseLocation>
+        <au_comments><![CDATA[null]]></au_comments>
+        <au_version><![CDATA[1]]></au_version>
+        <au_referenceField><![CDATA[]]></au_referenceField>
+        <au_reqSchemaId><![CDATA[XMLSchema:1556621616855904256]]></au_reqSchemaId>
+        <au_deleteOnSuccess><![CDATA[0]]></au_deleteOnSuccess>
+        <au_destAction><![CDATA[CreateCustomer]]></au_destAction>
+        <au_modifiedDate><![CDATA[2026-10-05T12:06:23]]></au_modifiedDate>
+        <au_userOwner><![CDATA[IndigoUser:1546384483271888896]]></au_userOwner>
+        <au_projectOwner><![CDATA[Default]]></au_projectOwner>
+        <au_permissionMask><![CDATA[770]]></au_permissionMask>
+        <au_externalId><![CDATA[null]]></au_externalId>
+        <au_accountId><![CDATA[OAuthAccount:1534495998889492480]]></au_accountId>
+        <au_description><![CDATA[SumitG_QB_Source_Action]]></au_description>
+        <au_groupOwner><![CDATA[IndigoGroup:127000000001107055548721600002]]></au_groupOwner>
+        <au_synchronized><![CDATA[0]]></au_synchronized>
+        <au_activeVersion><![CDATA[1]]></au_activeVersion>
+        <au_id><![CDATA[1556566723579600896]]></au_id>
+        <au_parameterJson><![CDATA[{"dynamicParams":[],"pathparams":[{"customerId":"100000011"}],"queryparams":[],"headerparams":[],"customparams":[],"dynamicUiParams":[]}]]></au_parameterJson>
+        <au_entityName><![CDATA[SumitG_QB_Source_Action]]></au_entityName>
+        <au_previousVersion><![CDATA[]]></au_previousVersion>
+        <au_resSchemaId><![CDATA[XMLSchema:1556566726284926976]]></au_resSchemaId>
+        <au_fileName><![CDATA[]]></au_fileName>
+        <au_filePattern><![CDATA[0|0|N|auto]]></au_filePattern>
+        <au_revision><![CDATA[null]]></au_revision>
+        <au_operation><![CDATA[create]]></au_operation>
+    </AU_APPLICATIONTARGET>
+    <columnInfo dbtype="4">
+        <column name="au_id" type="12"/>
+        <column name="au_version" type="12"/>
+        <column name="au_previousVersion" type="12"/>
+        <column name="au_activeVersion" type="3"/>
+        <column name="au_entityName" type="12"/>
+        <column name="au_userOwner" type="12"/>
+        <column name="au_groupOwner" type="12"/>
+        <column name="au_permissionMask" type="12"/>
+        <column name="au_description" type="12"/>
+        <column name="au_comments" type="12"/>
+        <column name="au_modifiedBy" type="12"/>
+        <column name="au_creationDate" type="93"/>
+        <column name="au_modifiedDate" type="93"/>
+        <column name="au_revision" type="12"/>
+        <column name="au_synchronized" type="3"/>
+        <column name="au_projectOwner" type="12"/>
+        <column name="au_adapterType" type="12"/>
+        <column name="au_accountId" type="12"/>
+        <column name="au_adapterProtocol" type="12"/>
+        <column name="au_operation" type="12"/>
+        <column name="au_referenceField" type="-1"/>
+        <column name="au_externalId" type="12"/>
+        <column name="au_fileBaseLocation" type="12"/>
+        <column name="au_fileName" type="12"/>
+        <column name="au_filePattern" type="12"/>
+        <column name="au_parameterJson" type="-1"/>
+        <column name="au_destAction" type="12"/>
+        <column name="au_reqSchemaId" type="12"/>
+        <column name="au_resSchemaId" type="12"/>
+        <column name="au_filterIn" type="-1"/>
+        <column name="au_deleteOnSuccess" type="3"/>
+        <column name="au_connectorId" type="12"/>
+    </columnInfo>
+</data>
