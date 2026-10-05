@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<data>
+    <AU_SAPSERVER>
+        <au_modifiedBy><![CDATA[IndigoUser:1542395995051847680]]></au_modifiedBy>
+        <au_previousVersion><![CDATA[]]></au_previousVersion>
+        <au_status><![CDATA[0]]></au_status>
+        <au_entityName><![CDATA[SAP_Server]]></au_entityName>
+        <au_version><![CDATA[1]]></au_version>
+        <AU_CONNECTIONCOUNT><![CDATA[1]]></AU_CONNECTIONCOUNT>
+        <au_comments><![CDATA[null]]></au_comments>
+        <AU_REPOSITORYMAP><![CDATA[]]></AU_REPOSITORYMAP>
+        <AU_MAXSTARTUPDELAY><![CDATA[]]></AU_MAXSTARTUPDELAY>
+        <au_revision><![CDATA[null]]></au_revision>
+        <au_id><![CDATA[1556659151506239488]]></au_id>
+        <AU_SAPROUTER><![CDATA[]]></AU_SAPROUTER>
+        <AU_SNCLIB><![CDATA[]]></AU_SNCLIB>
+        <au_description><![CDATA[SAP_Server]]></au_description>
+        <AU_WORKERTHREADMINCOUNT><![CDATA[]]></AU_WORKERTHREADMINCOUNT>
+        <AU_GATEWAYSERVER><![CDATA[d]]></AU_GATEWAYSERVER>
+        <au_synchronized><![CDATA[0]]></au_synchronized>
+        <au_activeVersion><![CDATA[1]]></au_activeVersion>
+        <au_modifiedDate><![CDATA[2026-10-05T13:27:43]]></au_modifiedDate>
+        <au_userOwner><![CDATA[IndigoUser:1542395995051847680]]></au_userOwner>
+        <AU_RFCTRACE><![CDATA[0]]></AU_RFCTRACE>
+        <au_processFlow><![CDATA[1555181277851148288]]></au_processFlow>
+        <AU_SNCQOP><![CDATA[]]></AU_SNCQOP>
+        <au_creationDate><![CDATA[2026-10-05T13:27:43]]></au_creationDate>
+        <AU_SNCMYNAME><![CDATA[]]></AU_SNCMYNAME>
+        <au_permissionMask><![CDATA[770]]></au_permissionMask>
+        <AU_PROGRAMID><![CDATA[11]]></AU_PROGRAMID>
+        <AU_SAPCLIENT><![CDATA[SAPClient:1543872823127687168]]></AU_SAPCLIENT>
+        <au_groupOwner><![CDATA[IndigoGroup:192168001075148181566048300002]]></au_groupOwner>
+        <AU_WORKERTHREADCOUNT><![CDATA[]]></AU_WORKERTHREADCOUNT>
+        <AU_SNCMODE><![CDATA[0]]></AU_SNCMODE>
+        <au_projectOwner><![CDATA[Project:11484550701988]]></au_projectOwner>
+        <AU_GATEWAYHOST><![CDATA[/]]></AU_GATEWAYHOST>
+    </AU_SAPSERVER>
+    <columnInfo dbtype="4">
+        <column name="au_id" type="12"/>
+        <column name="au_version" type="12"/>
+        <column name="au_previousVersion" type="12"/>
+        <column name="au_activeVersion" type="3"/>
+        <column name="au_entityName" type="12"/>
+        <column name="au_userOwner" type="12"/>
+        <column name="au_groupOwner" type="12"/>
+        <column name="au_permissionMask" type="12"/>
+        <column name="au_description" type="12"/>
+        <column name="au_comments" type="12"/>
+        <column name="au_modifiedBy" type="12"/>
+        <column name="au_creationDate" type="93"/>
+        <column name="au_modifiedDate" type="93"/>
+        <column name="au_revision" type="12"/>
+        <column name="au_synchronized" type="3"/>
+        <column name="au_projectOwner" type="12"/>
+        <column name="AU_GATEWAYHOST" type="12"/>
+        <column name="AU_GATEWAYSERVER" type="12"/>
+        <column name="AU_PROGRAMID" type="12"/>
+        <column name="AU_CONNECTIONCOUNT" type="12"/>
+        <column name="AU_SAPROUTER" type="12"/>
+        <column name="AU_MAXSTARTUPDELAY" type="12"/>
+        <column name="AU_REPOSITORYMAP" type="12"/>
+        <column name="AU_RFCTRACE" type="3"/>
+        <column name="AU_WORKERTHREADCOUNT" type="12"/>
+        <column name="AU_WORKERTHREADMINCOUNT" type="12"/>
+        <column name="AU_SNCMODE" type="3"/>
+        <column name="AU_SNCLIB" type="12"/>
+        <column name="AU_SNCQOP" type="12"/>
+        <column name="AU_SNCMYNAME" type="12"/>
+        <column name="au_status" type="3"/>
+        <column name="AU_SAPCLIENT" type="12"/>
+        <column name="au_processFlow" type="12"/>
+    </columnInfo>
+</data>
