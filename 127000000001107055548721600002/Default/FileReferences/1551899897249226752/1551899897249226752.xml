@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<data>
+    <AU_FILEREFERENCES>
+        <au_synchronized><![CDATA[0]]></au_synchronized>
+        <au_modifiedDate><![CDATA[2026-09-22T10:16:08]]></au_modifiedDate>
+        <au_userOwner><![CDATA[IndigoUser:1546384483271888896]]></au_userOwner>
+        <au_revision><![CDATA[null]]></au_revision>
+        <au_filePath><![CDATA[WSDL_NedGraphics_request.zip]]></au_filePath>
+        <au_version><![CDATA[1]]></au_version>
+        <au_id><![CDATA[1551899897249226752]]></au_id>
+        <au_creationDate><![CDATA[2026-09-22T10:16:08]]></au_creationDate>
+        <au_modifiedBy><![CDATA[IndigoUser:1546384483271888896]]></au_modifiedBy>
+        <au_permissionMask><![CDATA[755]]></au_permissionMask>
+        <au_projectOwner><![CDATA[Default]]></au_projectOwner>
+        <au_previousVersion><![CDATA[]]></au_previousVersion>
+        <au_groupOwner><![CDATA[IndigoGroup:127000000001107055548721600002]]></au_groupOwner>
+        <au_description><![CDATA[FileReference_SumitG_SOAP_Consumer_File_Reference]]></au_description>
+        <au_entityName><![CDATA[FileReference_SumitG_SOAP_Consumer_File_Reference]]></au_entityName>
+        <au_activeVersion><![CDATA[1]]></au_activeVersion>
+        <au_comments><![CDATA[null]]></au_comments>
+    </AU_FILEREFERENCES>
+    <columnInfo dbtype="4">
+        <column name="au_id" type="12"/>
+        <column name="au_version" type="12"/>
+        <column name="au_previousVersion" type="12"/>
+        <column name="au_activeVersion" type="3"/>
+        <column name="au_entityName" type="12"/>
+        <column name="au_userOwner" type="12"/>
+        <column name="au_groupOwner" type="12"/>
+        <column name="au_permissionMask" type="12"/>
+        <column name="au_description" type="12"/>
+        <column name="au_comments" type="12"/>
+        <column name="au_modifiedBy" type="12"/>
+        <column name="au_creationDate" type="93"/>
+        <column name="au_modifiedDate" type="93"/>
+        <column name="au_revision" type="12"/>
+        <column name="au_synchronized" type="3"/>
+        <column name="au_projectOwner" type="12"/>
+        <column name="au_filePath" type="12"/>
+    </columnInfo>
+</data>
