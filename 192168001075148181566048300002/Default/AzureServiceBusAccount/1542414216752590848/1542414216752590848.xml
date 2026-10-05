@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<data>
+    <AU_AzureServiceBusAccount>
+        <au_revision><![CDATA[null]]></au_revision>
+        <au_permissionMask><![CDATA[770]]></au_permissionMask>
+        <au_description><![CDATA[queued]]></au_description>
+        <au_clientid><![CDATA[JtdOySTZY/zp4NQF0xnVCvg74w97ORXO6RDYNbfLFrCfKBairAprUzHMzgmRyiTc]]></au_clientid>
+        <au_activeVersion><![CDATA[1]]></au_activeVersion>
+        <au_comments><![CDATA[null]]></au_comments>
+        <au_modifiedBy><![CDATA[IndigoUser:127000000001107055536473900001]]></au_modifiedBy>
+        <au_groupOwner><![CDATA[IndigoGroup:192168001075148181566048300002]]></au_groupOwner>
+        <au_authenticationType><![CDATA[Azure Active Directory]]></au_authenticationType>
+        <au_entityName><![CDATA[queued]]></au_entityName>
+        <au_modifiedDate><![CDATA[2026-10-05T12:23:59]]></au_modifiedDate>
+        <au_version><![CDATA[1]]></au_version>
+        <au_tenantid><![CDATA[M4zpYXt6vLVbvCpdFdH0VQyUzO0HCNvxY3fYulVMkRwxoxQcGTW8cq4PwWuNPCQg]]></au_tenantid>
+        <au_clientsecret><![CDATA[WBY0bhtyYMN9+tPG9u7gKzX5qRAaFaNEnY3BN2mLrXrN454OsMYMNO7A2N60E5Xy]]></au_clientsecret>
+        <au_id><![CDATA[1542414216752590848]]></au_id>
+        <au_connectionString><![CDATA[]]></au_connectionString>
+        <au_projectOwner><![CDATA[Default]]></au_projectOwner>
+        <au_hostname><![CDATA[adeptiaqabus.servicebus.windows.net]]></au_hostname>
+        <au_userOwner><![CDATA[IndigoUser:1542395995051847680]]></au_userOwner>
+        <au_creationDate><![CDATA[2026-08-27T06:03:26]]></au_creationDate>
+        <au_synchronized><![CDATA[0]]></au_synchronized>
+        <au_previousVersion><![CDATA[]]></au_previousVersion>
+    </AU_AzureServiceBusAccount>
+    <columnInfo dbtype="4">
+        <column name="au_id" type="12"/>
+        <column name="au_version" type="12"/>
+        <column name="au_previousVersion" type="12"/>
+        <column name="au_activeVersion" type="3"/>
+        <column name="au_entityName" type="12"/>
+        <column name="au_userOwner" type="12"/>
+        <column name="au_groupOwner" type="12"/>
+        <column name="au_permissionMask" type="12"/>
+        <column name="au_description" type="12"/>
+        <column name="au_comments" type="12"/>
+        <column name="au_modifiedBy" type="12"/>
+        <column name="au_creationDate" type="93"/>
+        <column name="au_modifiedDate" type="93"/>
+        <column name="au_revision" type="12"/>
+        <column name="au_synchronized" type="3"/>
+        <column name="au_projectOwner" type="12"/>
+        <column name="au_connectionString" type="-1"/>
+        <column name="au_authenticationType" type="12"/>
+        <column name="au_hostname" type="12"/>
+        <column name="au_clientid" type="12"/>
+        <column name="au_clientsecret" type="12"/>
+        <column name="au_tenantid" type="12"/>
+    </columnInfo>
+</data>
