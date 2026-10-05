@@ -1,38 +1,38 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <data>
     <AU_FTPACCOUNT>
-        <au_modifiedDate><![CDATA[2026-10-01T11:12:39]]></au_modifiedDate>
-        <au_connectorName><![CDATA[null]]></au_connectorName>
-        <au_permissionMask><![CDATA[770]]></au_permissionMask>
-        <au_userOwner><![CDATA[IndigoUser:1546384483271888896]]></au_userOwner>
-        <au_transferType><![CDATA[PASSIVE]]></au_transferType>
-        <au_password><![CDATA[3yxWge/U8qxkTBELZnd0/w==]]></au_password>
-        <au_ftpUserId><![CDATA[sftp_both]]></au_ftpUserId>
-        <au_preferredAuthentications><![CDATA[publickey,keyboard-interactive,password]]></au_preferredAuthentications>
-        <au_port><![CDATA[22]]></au_port>
-        <au_keyManager><![CDATA[KeyManager:1555106325722902528]]></au_keyManager>
-        <au_id><![CDATA[1555175610344005632]]></au_id>
-        <au_revision><![CDATA[null]]></au_revision>
         <au_description><![CDATA[SumitG_SFTP_Combo]]></au_description>
-        <au_activeVersion><![CDATA[1]]></au_activeVersion>
-        <AU_CONFIGMETADATA><![CDATA[null]]></AU_CONFIGMETADATA>
-        <au_ftpsMode><![CDATA[Explicit]]></au_ftpsMode>
-        <au_entityName><![CDATA[SumitG_SFTP_Combo]]></au_entityName>
-        <au_hostName><![CDATA[172.176.93.228]]></au_hostName>
-        <au_keyStoreNameForFTP><![CDATA[]]></au_keyStoreNameForFTP>
-        <au_creationDate><![CDATA[2026-10-01T11:12:39]]></au_creationDate>
-        <au_synchronized><![CDATA[0]]></au_synchronized>
-        <au_modifiedBy><![CDATA[IndigoUser:1546384483271888896]]></au_modifiedBy>
-        <au_ftpValidateServer><![CDATA[0]]></au_ftpValidateServer>
-        <au_version><![CDATA[1]]></au_version>
-        <au_comments><![CDATA[null]]></au_comments>
+        <au_id><![CDATA[1555175610344005632]]></au_id>
+        <au_userOwner><![CDATA[IndigoUser:1546384483271888896]]></au_userOwner>
         <au_transferMode><![CDATA[Binary]]></au_transferMode>
-        <au_addOnConfigurations><![CDATA[]]></au_addOnConfigurations>
-        <au_previousVersion><![CDATA[]]></au_previousVersion>
-        <au_projectOwner><![CDATA[Project:11484550701988]]></au_projectOwner>
+        <au_modifiedBy><![CDATA[IndigoUser:127000000001107055536473900001]]></au_modifiedBy>
+        <au_revision><![CDATA[9664d85db1605636daa18da1379b8b97a918f7a9]]></au_revision>
+        <au_permissionMask><![CDATA[770]]></au_permissionMask>
+        <au_password><![CDATA[3yxWge/U8qxkTBELZnd0/w==]]></au_password>
         <au_ftpProtectionLevel><![CDATA[None]]></au_ftpProtectionLevel>
-        <au_ftpType><![CDATA[SFTP]]></au_ftpType>
+        <au_comments><![CDATA[null]]></au_comments>
         <au_groupOwner><![CDATA[IndigoGroup:127000000001107055548721600002]]></au_groupOwner>
+        <au_creationDate><![CDATA[2026-10-01T11:12:39]]></au_creationDate>
+        <au_transferType><![CDATA[PASSIVE]]></au_transferType>
+        <au_modifiedDate><![CDATA[2026-10-05T12:25:14]]></au_modifiedDate>
+        <au_ftpValidateServer><![CDATA[0]]></au_ftpValidateServer>
+        <au_projectOwner><![CDATA[Project:11484550701988]]></au_projectOwner>
+        <au_activeVersion><![CDATA[1]]></au_activeVersion>
+        <au_entityName><![CDATA[SumitG_SFTP_Combo]]></au_entityName>
+        <au_version><![CDATA[1]]></au_version>
+        <au_ftpUserId><![CDATA[sftp_both]]></au_ftpUserId>
+        <au_keyManager><![CDATA[KeyManager:1555106325722902528]]></au_keyManager>
+        <au_connectorName><![CDATA[null]]></au_connectorName>
+        <au_port><![CDATA[22]]></au_port>
+        <au_previousVersion><![CDATA[]]></au_previousVersion>
+        <au_keyStoreNameForFTP><![CDATA[]]></au_keyStoreNameForFTP>
+        <au_preferredAuthentications><![CDATA[publickey,keyboard-interactive,password]]></au_preferredAuthentications>
+        <AU_CONFIGMETADATA><![CDATA[null]]></AU_CONFIGMETADATA>
+        <au_addOnConfigurations><![CDATA[]]></au_addOnConfigurations>
+        <au_ftpsMode><![CDATA[Explicit]]></au_ftpsMode>
+        <au_synchronized><![CDATA[0]]></au_synchronized>
+        <au_ftpType><![CDATA[SFTP]]></au_ftpType>
+        <au_hostName><![CDATA[172.176.93.228]]></au_hostName>
     </AU_FTPACCOUNT>
     <columnInfo dbtype="4">
         <column name="au_id" type="12"/>
