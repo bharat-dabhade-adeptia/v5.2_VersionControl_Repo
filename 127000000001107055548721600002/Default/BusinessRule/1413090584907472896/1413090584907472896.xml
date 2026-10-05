@@ -1,25 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <data>
     <AU_BUSINESS_RULE>
-        <au_id><![CDATA[1413090584907472896]]></au_id>
-        <au_modifiedDate><![CDATA[2026-10-05T12:15:32]]></au_modifiedDate>
-        <au_synchronized><![CDATA[0]]></au_synchronized>
-        <au_creationDate><![CDATA[null]]></au_creationDate>
         <au_previousVersion><![CDATA[]]></au_previousVersion>
-        <au_json_layout><![CDATA[1266300568881840128]]></au_json_layout>
-        <au_description><![CDATA[IDP_BusinessRule]]></au_description>
         <au_comments><![CDATA[null]]></au_comments>
         <au_entityName><![CDATA[IDP_BusinessRule]]></au_entityName>
-        <au_permissionMask><![CDATA[770]]></au_permissionMask>
-        <au_activeVersion><![CDATA[1]]></au_activeVersion>
-        <au_groupOwner><![CDATA[IndigoGroup:127000000001107055548721600002]]></au_groupOwner>
-        <au_modifiedBy><![CDATA[IndigoUser:127000000001107055536473900001]]></au_modifiedBy>
-        <au_version><![CDATA[1]]></au_version>
-        <au_revision><![CDATA[null]]></au_revision>
         <au_userOwner><![CDATA[IndigoUser:127000000001107055536473900001]]></au_userOwner>
         <AU_CONFIGURATION><![CDATA[{"maxRetryAttempts":3,"minBackoffTime":1,"maxBackoffTime":10,"connectTimeout":5,"writeTimeout":10,"readTimeout":300,"mergeInputData":"No"}]]></AU_CONFIGURATION>
-        <AU_JSON_DATA><![CDATA[null]]></AU_JSON_DATA>
+        <au_version><![CDATA[1]]></au_version>
+        <au_description><![CDATA[IDP_BusinessRule]]></au_description>
+        <au_json_layout><![CDATA[1266300568881840128]]></au_json_layout>
+        <au_modifiedDate><![CDATA[2026-10-05T12:16:25]]></au_modifiedDate>
+        <au_activeVersion><![CDATA[1]]></au_activeVersion>
+        <au_creationDate><![CDATA[null]]></au_creationDate>
+        <au_synchronized><![CDATA[0]]></au_synchronized>
+        <au_id><![CDATA[1413090584907472896]]></au_id>
+        <au_permissionMask><![CDATA[770]]></au_permissionMask>
+        <au_modifiedBy><![CDATA[IndigoUser:127000000001107055536473900001]]></au_modifiedBy>
+        <au_groupOwner><![CDATA[IndigoGroup:127000000001107055548721600002]]></au_groupOwner>
         <au_projectOwner><![CDATA[Default]]></au_projectOwner>
+        <AU_JSON_DATA><![CDATA[null]]></AU_JSON_DATA>
+        <au_revision><![CDATA[null]]></au_revision>
     </AU_BUSINESS_RULE>
     <columnInfo dbtype="4">
         <column name="au_id" type="12"/>
