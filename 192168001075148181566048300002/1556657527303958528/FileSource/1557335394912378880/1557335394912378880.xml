@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<data>
+    <AU_FILESOURCE>
+        <au_previousVersion><![CDATA[]]></au_previousVersion>
+        <au_description><![CDATA[SS_FileSource_1]]></au_description>
+        <au_fileName><![CDATA[TestFile.txt]]></au_fileName>
+        <au_modifiedBy><![CDATA[IndigoUser:1556543333548417024]]></au_modifiedBy>
+        <au_modifiedDate><![CDATA[2026-10-07T11:09:25]]></au_modifiedDate>
+        <au_revision><![CDATA[null]]></au_revision>
+        <au_groupOwner><![CDATA[IndigoGroup:192168001075148181566048300002]]></au_groupOwner>
+        <au_userOwner><![CDATA[IndigoUser:1556543333548417024]]></au_userOwner>
+        <au_persistDataEnabled><![CDATA[0]]></au_persistDataEnabled>
+        <au_permissionMask><![CDATA[770]]></au_permissionMask>
+        <au_entityName><![CDATA[SS_FileSource_1]]></au_entityName>
+        <au_creationDate><![CDATA[2026-10-07T10:14:52]]></au_creationDate>
+        <au_projectOwner><![CDATA[Project:1556657527303958528]]></au_projectOwner>
+        <au_filepath><![CDATA[/shared/ss_test]]></au_filepath>
+        <au_deleteOnSuccess><![CDATA[1]]></au_deleteOnSuccess>
+        <au_synchronized><![CDATA[0]]></au_synchronized>
+        <au_activeVersion><![CDATA[1]]></au_activeVersion>
+        <au_id><![CDATA[1557335394912378880]]></au_id>
+        <au_version><![CDATA[1]]></au_version>
+        <au_comments><![CDATA[]]></au_comments>
+    </AU_FILESOURCE>
+    <columnInfo dbtype="4">
+        <column name="au_id" type="12"/>
+        <column name="au_version" type="12"/>
+        <column name="au_previousVersion" type="12"/>
+        <column name="au_activeVersion" type="3"/>
+        <column name="au_entityName" type="12"/>
+        <column name="au_userOwner" type="12"/>
+        <column name="au_groupOwner" type="12"/>
+        <column name="au_permissionMask" type="12"/>
+        <column name="au_description" type="12"/>
+        <column name="au_comments" type="12"/>
+        <column name="au_modifiedBy" type="12"/>
+        <column name="au_creationDate" type="93"/>
+        <column name="au_modifiedDate" type="93"/>
+        <column name="au_revision" type="12"/>
+        <column name="au_synchronized" type="3"/>
+        <column name="au_projectOwner" type="12"/>
+        <column name="au_persistDataEnabled" type="3"/>
+        <column name="au_filepath" type="12"/>
+        <column name="au_fileName" type="12"/>
+        <column name="au_deleteOnSuccess" type="3"/>
+    </columnInfo>
+</data>
